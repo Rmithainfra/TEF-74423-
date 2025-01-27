@@ -11,9 +11,9 @@ var viewer = pannellum.viewer('panorama', {
             "type": "equirectangular",
             "panorama": "22m.jpg", 
             "hfov":200,
-            "yaw": 0,
+            "yaw": 4,
             "compass":true,
-            "northOffset":0
+            "northOffset":-4
         },
   
         "image-2": {
@@ -24,9 +24,9 @@ var viewer = pannellum.viewer('panorama', {
         "vaov":180,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw": 0,
+        "yaw": 4,
         "compass":true,
-        "northOffset":0
+        "northOffset":-4
       },
 
       "image-3": {
@@ -37,9 +37,9 @@ var viewer = pannellum.viewer('panorama', {
         "vaov":180,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw": 1,
+        "yaw": 5,
         "compass":true,
-        "northOffset":-1
+        "northOffset":-5
       },
 
       "image-4":{
@@ -50,9 +50,9 @@ var viewer = pannellum.viewer('panorama', {
         "vaov":180,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw": 0,
+        "yaw": 4,
         "compass":true,
-        "northOffset":0
+        "northOffset":4
         
       }, 
     //   "image-5":{
